@@ -18,7 +18,7 @@ Instruções ao aluno:
 
 - mude as configurações de visibilidade do repositório para privado
 - crie um [PAT (Personal Acess Token)](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#como-criar-um-personal-access-token-classic)
-- crie um [secret](https://docs.github.com/pt/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets#creating-secrets-for-a-repository) com o nome PAT e insire o PAT criado.
+- crie um [secret](https://docs.github.com/pt/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets#creating-secrets-for-a-repository) com o nome PAT e insira o PAT criado.
 - caso tenha dado um nome diferente ao secret modifique a linha 84 do arquivo **trigger**:  token: ${{ secrets.NOME_DO_SECRET }}
 
 
