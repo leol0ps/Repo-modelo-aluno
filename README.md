@@ -11,4 +11,6 @@ Este reposiório é um repositório base para que os professores criem o reposit
   - linha 97: se renomeou o repositório hub de outro nome, modificar para tal nome
   - linha 98: modifique para seu usuario
 
+Após isso transforme este repositório em um repositório template para que os alunos possam utilizar. Peça para que os alunos mudem a configuração de privacidade do repositório para privado e que ele faça um convite para que a conta do repositório hub seja um colaborador.
+
 
