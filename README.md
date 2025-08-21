@@ -12,7 +12,7 @@ Instruções ao professor:
     - linha 97: se renomeou o repositório hub de outro nome, modificar para tal nome
     - linha 98: modifique para seu usuario
 
-Após isso transforme seu repositório em um repositório template para que os alunos possam utilizar. Peça para que os alunos mudem a configuração de visibilidade do repositório para privado e que façam um convite para que a conta do repositório hub seja um colaborador.
+Após isso transforme seu repositório em um [repositório template](https://docs.github.com/pt/repositories/creating-and-managing-repositories/creating-a-template-repository#creating-a-template-repository) para que os alunos possam utilizar. Peça para que os alunos mudem a configuração de visibilidade do repositório para privado e que façam um convite para que a conta do repositório hub seja um colaborador.
 
 Instruções ao aluno:
 
