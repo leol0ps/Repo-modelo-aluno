@@ -2,6 +2,7 @@
 
 Este reposiório é um repositório base para que os professores criem o repositório modelo para os alunos.
 
+Instruções ao professor:
 - Configure os diretórios de forma que para cada exercicio (.zip) no repositório de soluções tenha uma pasta dentro da pasta problemas/ neste repositório.
 
 -  é necessário fazer mudanças no arquivo **trigger.yml**, siga as instruções abaixo:
@@ -11,6 +12,13 @@ Este reposiório é um repositório base para que os professores criem o reposit
   - linha 97: se renomeou o repositório hub de outro nome, modificar para tal nome
   - linha 98: modifique para seu usuario
 
-Após isso transforme seu repositório em um repositório template para que os alunos possam utilizar. Peça para que os alunos mudem a configuração de privacidade do repositório para privado e que façam um convite para que a conta do repositório hub seja um colaborador.
+Após isso transforme seu repositório em um repositório template para que os alunos possam utilizar. Peça para que os alunos mudem a configuração de visibilidade do repositório para privado e que façam um convite para que a conta do repositório hub seja um colaborador.
+
+Instruções ao aluno:
+
+- mude as configurações de visibilidade do repositório para privado
+- crie um [PAT (Personal Acess Token)](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#como-criar-um-personal-access-token-classic)
+- crie um [secret](https://docs.github.com/pt/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets#creating-secrets-for-a-repository) com o nome PAT e insire o PAT criado.
+- caso tenha dado um nome diferente ao secret modifique a linha 84 do arquivo **trigger**:  token: ${{ secrets.NOME_DO_SECRET }}
 
 
